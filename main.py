@@ -53,7 +53,7 @@ def getLawyer(card):
         return Lawyer(name, phoneNumber, email, address, cases, swornDate)
     except AttributeError:
         return None
-'''
+
 #fonction principale qui va placer les liens dans links puis qui va à partir de ces liens éxecuter la fonction
 #getLawyer qui va placer les infos de chaque lien dans le tableau lawyers. Puis qui va créer un dataframe avec nos infos
 #pour l'envoyer sur un csv
@@ -86,4 +86,4 @@ def formatLawyers(lawyersArray):
 
     return lawyersData
 
-main()'''
+main()
